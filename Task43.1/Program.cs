@@ -24,8 +24,8 @@ void Main()
         return;
     }
 
-    double x = (b2 - b1) / (k1 - k2);
-    double y = k1 * x + b1;
+    double x = (k1 - k2) / (b1 - b2);
+    double y = k2 * x + b2;
 
     Console.WriteLine($"Прямые заданные данными уравнениями пересекаются в точке с координатами ({x}, {y})");
 
